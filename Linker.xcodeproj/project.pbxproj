@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4316D04821499A6500940506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316D04721499A6500940506 /* AppDelegate.swift */; };
-		4316D04A21499A6500940506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316D04921499A6500940506 /* ViewController.swift */; };
 		4316D04D21499A6500940506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4316D04B21499A6500940506 /* Main.storyboard */; };
 		4316D04F21499A6700940506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4316D04E21499A6700940506 /* Assets.xcassets */; };
 		4316D05221499A6700940506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4316D05021499A6700940506 /* LaunchScreen.storyboard */; };
 		4316D05D21499A6700940506 /* LinkOpenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316D05C21499A6700940506 /* LinkOpenerTests.swift */; };
 		4316D06821499A6700940506 /* LinkOpenerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316D06721499A6700940506 /* LinkOpenerUITests.swift */; };
+		4316D07621499F3B00940506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316D07521499F3B00940506 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +34,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4316D04421499A6500940506 /* LinkOpener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkOpener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4316D04421499A6500940506 /* Linker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4316D04721499A6500940506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4316D04921499A6500940506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4316D04C21499A6500940506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4316D04E21499A6700940506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4316D05121499A6700940506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4316D05321499A6700940506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4316D05821499A6700940506 /* LinkOpenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkOpenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4316D05821499A6700940506 /* LinkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4316D05C21499A6700940506 /* LinkOpenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkOpenerTests.swift; sourceTree = "<group>"; };
 		4316D05E21499A6700940506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4316D06321499A6700940506 /* LinkOpenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkOpenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4316D06321499A6700940506 /* LinkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4316D06721499A6700940506 /* LinkOpenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkOpenerUITests.swift; sourceTree = "<group>"; };
 		4316D06921499A6700940506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4316D07521499F3B00940506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,9 @@
 		4316D04521499A6500940506 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4316D04421499A6500940506 /* LinkOpener.app */,
-				4316D05821499A6700940506 /* LinkOpenerTests.xctest */,
-				4316D06321499A6700940506 /* LinkOpenerUITests.xctest */,
+				4316D04421499A6500940506 /* Linker.app */,
+				4316D05821499A6700940506 /* LinkerTests.xctest */,
+				4316D06321499A6700940506 /* LinkerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4316D04721499A6500940506 /* AppDelegate.swift */,
-				4316D04921499A6500940506 /* ViewController.swift */,
+				4316D07521499F3B00940506 /* ViewController.swift */,
 				4316D04B21499A6500940506 /* Main.storyboard */,
 				4316D04E21499A6700940506 /* Assets.xcassets */,
 				4316D05021499A6700940506 /* LaunchScreen.storyboard */,
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4316D04321499A6500940506 /* LinkOpener */ = {
+		4316D04321499A6500940506 /* Linker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4316D06C21499A6700940506 /* Build configuration list for PBXNativeTarget "LinkOpener" */;
+			buildConfigurationList = 4316D06C21499A6700940506 /* Build configuration list for PBXNativeTarget "Linker" */;
 			buildPhases = (
 				4316D04021499A6500940506 /* Sources */,
 				4316D04121499A6500940506 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = LinkOpener;
+			name = Linker;
 			productName = LinkOpener;
-			productReference = 4316D04421499A6500940506 /* LinkOpener.app */;
+			productReference = 4316D04421499A6500940506 /* Linker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4316D05721499A6700940506 /* LinkOpenerTests */ = {
+		4316D05721499A6700940506 /* LinkerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4316D06F21499A6700940506 /* Build configuration list for PBXNativeTarget "LinkOpenerTests" */;
+			buildConfigurationList = 4316D06F21499A6700940506 /* Build configuration list for PBXNativeTarget "LinkerTests" */;
 			buildPhases = (
 				4316D05421499A6700940506 /* Sources */,
 				4316D05521499A6700940506 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				4316D05A21499A6700940506 /* PBXTargetDependency */,
 			);
-			name = LinkOpenerTests;
+			name = LinkerTests;
 			productName = LinkOpenerTests;
-			productReference = 4316D05821499A6700940506 /* LinkOpenerTests.xctest */;
+			productReference = 4316D05821499A6700940506 /* LinkerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4316D06221499A6700940506 /* LinkOpenerUITests */ = {
+		4316D06221499A6700940506 /* LinkerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4316D07221499A6700940506 /* Build configuration list for PBXNativeTarget "LinkOpenerUITests" */;
+			buildConfigurationList = 4316D07221499A6700940506 /* Build configuration list for PBXNativeTarget "LinkerUITests" */;
 			buildPhases = (
 				4316D05F21499A6700940506 /* Sources */,
 				4316D06021499A6700940506 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				4316D06521499A6700940506 /* PBXTargetDependency */,
 			);
-			name = LinkOpenerUITests;
+			name = LinkerUITests;
 			productName = LinkOpenerUITests;
-			productReference = 4316D06321499A6700940506 /* LinkOpenerUITests.xctest */;
+			productReference = 4316D06321499A6700940506 /* LinkerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4316D03F21499A6500940506 /* Build configuration list for PBXProject "LinkOpener" */;
+			buildConfigurationList = 4316D03F21499A6500940506 /* Build configuration list for PBXProject "Linker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4316D04321499A6500940506 /* LinkOpener */,
-				4316D05721499A6700940506 /* LinkOpenerTests */,
-				4316D06221499A6700940506 /* LinkOpenerUITests */,
+				4316D04321499A6500940506 /* Linker */,
+				4316D05721499A6700940506 /* LinkerTests */,
+				4316D06221499A6700940506 /* LinkerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4316D04A21499A6500940506 /* ViewController.swift in Sources */,
+				4316D07621499F3B00940506 /* ViewController.swift in Sources */,
 				4316D04821499A6500940506 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		4316D05A21499A6700940506 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4316D04321499A6500940506 /* LinkOpener */;
+			target = 4316D04321499A6500940506 /* Linker */;
 			targetProxy = 4316D05921499A6700940506 /* PBXContainerItemProxy */;
 		};
 		4316D06521499A6700940506 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4316D04321499A6500940506 /* LinkOpener */;
+			target = 4316D04321499A6500940506 /* Linker */;
 			targetProxy = 4316D06421499A6700940506 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,7 +439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fluffybunnysoftware.LinkOpener;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fluffybunnysoftware.Linker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +457,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fluffybunnysoftware.LinkOpener;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fluffybunnysoftware.Linker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkOpener.app/LinkOpener";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linker.app/Linker";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkOpener.app/LinkOpener";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linker.app/Linker";
 			};
 			name = Release;
 		};
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4316D03F21499A6500940506 /* Build configuration list for PBXProject "LinkOpener" */ = {
+		4316D03F21499A6500940506 /* Build configuration list for PBXProject "Linker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4316D06A21499A6700940506 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4316D06C21499A6700940506 /* Build configuration list for PBXNativeTarget "LinkOpener" */ = {
+		4316D06C21499A6700940506 /* Build configuration list for PBXNativeTarget "Linker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4316D06D21499A6700940506 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4316D06F21499A6700940506 /* Build configuration list for PBXNativeTarget "LinkOpenerTests" */ = {
+		4316D06F21499A6700940506 /* Build configuration list for PBXNativeTarget "LinkerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4316D07021499A6700940506 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4316D07221499A6700940506 /* Build configuration list for PBXNativeTarget "LinkOpenerUITests" */ = {
+		4316D07221499A6700940506 /* Build configuration list for PBXNativeTarget "LinkerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4316D07321499A6700940506 /* Debug */,
